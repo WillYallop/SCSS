@@ -1,0 +1,27 @@
+/*
+    This project uses the bem methodology
+    You can find out more about it here: http://getbem.com
+
+    On top of that all class names are writting in their most simple form to reduce file sizes
+*/
+
+// ------------------------------------
+// Settings
+// ------------------------------------
+@import './settings/colours';
+@import './settings/vars';
+
+// ------------------------------------
+// Base
+// ------------------------------------
+@import './base/core';
+@import './base/a';
+@import './base/layout';
+@import './base/typography';
+@import './base/input';
+@import './base/button';
+
+// ------------------------------------
+// Components
+// ------------------------------------
+// @import './components/';
