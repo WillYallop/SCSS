@@ -5,11 +5,20 @@
     On top of that all class names are writting in their most simple form to reduce file sizes
 */
 
+$html-font-size: 16px;
+@import './functions/rem';
+
 // ------------------------------------
 // Settings
 // ------------------------------------
 @import './settings/colours';
 @import './settings/vars';
+
+// ------------------------------------
+// Mixins
+// ------------------------------------
+@import './mixins/breakpoints';
+@import './mixins/general';
 
 // ------------------------------------
 // Base
