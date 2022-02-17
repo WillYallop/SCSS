@@ -1,0 +1,11 @@
+html {
+
+}
+
+body {
+    font-size: $html-font-size;
+    background-color: $site_background;
+    font-family: $font_family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
