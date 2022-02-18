@@ -115,6 +115,23 @@
         @include mobile { padding-bottom: calc(map-get($section_padding, _mobile) / 2); }
         @include small_mobile { padding-bottom: calc(map-get($section_padding, _small_mobile) / 2); }
     }
+    // padding horizontal
+    &--sp-h {
+        padding-left: map-get($section_padding_horizontal, _desktop);
+        padding-right: map-get($section_padding_horizontal, _desktop);
+        @include tablet { 
+            padding-left: map-get($section_padding_horizontal, _tablet);
+            padding-right: map-get($section_padding_horizontal, _tablet);
+        }
+        @include mobile { 
+            padding-left: map-get($section_padding_horizontal, _mobile);
+            padding-right: map-get($section_padding_horizontal, _mobile);
+        }
+        @include small_mobile {
+            padding-left: map-get($section_padding_horizontal, _small_mobile);
+            padding-right: map-get($section_padding_horizontal, _small_mobile);
+        }
+    }
     // Block Padding
     &--bp {
         padding: map-get($block_padding, _desktop);

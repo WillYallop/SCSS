@@ -1,5 +1,6 @@
 
 $site_background: #f7f7f7;
+$border_colour: rgb(95, 95, 95);
 
 // ------------------------------------
 // Background colours
@@ -18,6 +19,7 @@ $colours: (
 // Light mode
 :root {
     --site-bg: #{$site_background};
+    --border-c: #{$border_colour};
 
     --error: #{map-get($colours, _error)};
     --success: #{map-get($colours, _success)};
